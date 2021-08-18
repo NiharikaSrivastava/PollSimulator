@@ -1,0 +1,133 @@
+.header
+{
+    background-color: rgb(161, 212, 235);
+}
+
+.menu
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0px 10px 10px 10px;
+    width: 60vw;
+}
+
+.logo
+{
+    margin-top:10px;
+    width: 95px;
+    height: 95px;
+}
+
+.heading
+{
+    font-size: 30px;
+}
+
+body
+{
+    background-color: rgb(212, 230, 231);
+}
+
+.pollNav
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vh;
+    height: 250px;
+}
+
+.button
+{
+    display: inline-block;
+    font-size: 1em;
+    background: rgb(22, 3, 189);
+    border-style:solid;
+    border-color: rgb(255, 166, 0); 
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.add
+{
+    display: inline-block;
+    font-size: 1em;
+    background: rgb(22, 3, 189);
+    border-style:solid;
+    border-color: rgb(255, 166, 0); 
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 3px;
+    color: white;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.admin
+{
+    float: right;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 253, 242);
+}
+
+.quote
+{
+    direction:"left"; 
+    height:50px;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+}
+
+.backToHome
+{
+    float: right;
+    font-size: large;
+}
+
+label
+{
+    font-size: 1.2em;
+}
+
+.winnerSBG
+{
+    background-color: lightgreen;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loserSBG
+{
+    background-color: lightcoral;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

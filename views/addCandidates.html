@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Add Candidates</title>
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+        <article>
+            <section class="header">
+                <section class="menu">
+                    <img class="logo" alt="DAIICT Logo" src="../images/daiictLogo.jpg"/>
+                    <h1 class="heading">SBG ELECTIONS 2021-22</h1>
+                </section>    
+            </section>
+            <center><h2><u>ADD CANDIDATES</u></h2></center>
+            <i><a class="backToHome" href="index.html"> Back To Home </a></i> <br>
+            <form action="../controllers/addCandidates.php" method="POST">
+                <section class="candidateDetails">
+                   <hr>
+                   <label> Student ID: </label> <input type="number" name="studentID1" required> <br><br>
+                   <label> Student Name: </label> <input type="text" name="studentName1" required> 
+                   <hr>
+                </section>
+                <section class="candidateDetails">
+                    <label> Student ID: </label> <input type="number" name="studentID2" required> <br><br>
+                    <label> Student Name: </label> <input type="text" name="studentName2" required> 
+                    <hr>
+                </section>
+                <section class="candidateDetails">
+                    <label> Student ID: </label> <input type="number" name="studentID3" required> <br><br>
+                    <label> Student Name: </label> <input type="text" name="studentName3" required> 
+                    <hr>
+                </section>
+                <section class="candidateDetails">
+                    <label> Student ID: </label> <input type="number" name="studentID4" required> <br><br>
+                    <label> Student Name: </label> <input type="text" name="studentName4" required> 
+                    <hr>
+                </section> 
+                <section class="candidateDetails">
+                    <label> Student ID: </label> <input type="number" name="studentID5" required> <br><br>
+                    <label> Student Name: </label> <input type="text" name="studentName5" required> 
+                    <hr>
+                </section> 
+                <br><center><input type="submit" value="SUBMIT" onclick="clicked();" class="button"/></center>
+            </form>                
+        </article>
+    </body>    
+    <script>
+        function clicked() {
+            alert("Candidates Succesfully Added!")
+        }
+    </script>
+</html>
